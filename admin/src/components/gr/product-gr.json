@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_gr_product_grs",
+  "info": {
+    "displayName": "product_gr",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "products": {
+      "type": "json"
+    }
+  }
+}

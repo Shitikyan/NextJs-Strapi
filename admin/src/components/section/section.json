@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section",
+  "info": {
+    "displayName": "section",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

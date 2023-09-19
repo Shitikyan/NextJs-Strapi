@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_en_product_ens",
+  "info": {
+    "displayName": "product_en"
+  },
+  "options": {},
+  "attributes": {
+    "products": {
+      "type": "json"
+    }
+  }
+}

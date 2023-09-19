@@ -1,0 +1,32 @@
+{
+  "name": "ailantus-admin",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "node node_modules/@strapi/strapi/bin/strapi.js develop",
+    "start:dev": "node node_modules/@strapi/strapi/bin/strapi.js start",
+    "build:dev": "node node_modules/@strapi/strapi/bin/strapi.js build",
+    "start": "NODE_ENV=production node node_modules/@strapi/strapi/bin/strapi.js start",
+    "build": "NODE_ENV=production node node_modules/@strapi/strapi/bin/strapi.js build",
+    "strapi": "node node_modules/@strapi/strapi/bin/strapi.js "
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.12.7",
+    "@strapi/plugin-users-permissions": "4.12.7",
+    "@strapi/plugin-i18n": "4.12.7",
+    "better-sqlite3": "8.5.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "e9cd4338-fc4e-41dd-ba15-8ba662c6e8cd"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

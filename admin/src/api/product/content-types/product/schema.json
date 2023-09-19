@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "en": {
+      "displayName": "product_en",
+      "type": "component",
+      "repeatable": false,
+      "component": "en.product-en"
+    },
+    "gr": {
+      "type": "component",
+      "repeatable": false,
+      "component": "gr.product-gr"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "imprints",
+  "info": {
+    "singularName": "imprint",
+    "pluralName": "imprints",
+    "displayName": "Imprint",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "en": {
+      "displayName": "language",
+      "type": "component",
+      "repeatable": false,
+      "component": "en.language"
+    },
+    "gr": {
+      "type": "component",
+      "repeatable": false,
+      "component": "gr.gr"
+    }
+  }
+}

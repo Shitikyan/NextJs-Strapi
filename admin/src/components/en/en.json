@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_en_ens",
+  "info": {
+    "displayName": "en"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "images": {
+      "displayName": "media",
+      "type": "component",
+      "repeatable": true,
+      "component": "media.media"
+    }
+  }
+}

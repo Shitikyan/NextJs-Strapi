@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_en_languages",
+  "info": {
+    "displayName": "en",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sections": {
+      "displayName": "sections",
+      "type": "component",
+      "repeatable": true,
+      "component": "section.sections"
+    }
+  }
+}

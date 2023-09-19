@@ -1,0 +1,11 @@
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .container {
+    .carousel.carousel-slider .control-dots {
+      bottom: 10px !important;
+    }
+    .carousel .slide {
+      text-align: start !important;
+    }
+  }
+}

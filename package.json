@@ -1,0 +1,44 @@
+{
+  "name": "fe-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "local": "next dev",
+    "dev": "node --require ./load-appinsights.js node_modules/next/dist/bin/next dev",
+    "build": "node --require ./prebuild.js node_modules/next/dist/bin/next build",
+    "start": "node .next/standalone/server.js",
+    "lint": "eslint . --ext ts --ext tsx --ext js",
+    "lint:fix": "npm run lint --fix",
+    "check-types": "tsc --noEmit",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "test-all": "npm run lint && npm run format && npm run build",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@tiptap/pm": "^2.1.7",
+    "@types/node": "20.4.2",
+    "@types/react": "18.2.15",
+    "@types/react-dom": "18.2.7",
+    "@typescript-eslint/parser": "^6.2.0",
+    "axios": "^1.5.0",
+    "applicationinsights": "^2.7.3",
+    "cookies-next": "^3.0.0",
+    "eslint-config-next": "13.4.9",
+    "next": "13.4.9",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-responsive-carousel": "^3.2.23",
+    "sass": "^1.63.6",
+    "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "autoprefixer": "^10.4.15",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "husky": "^8.0.0",
+    "postcss": "^8.4.28",
+    "prettier": "^3.0.0",
+    "tailwindcss": "^3.3.3"
+  }
+}

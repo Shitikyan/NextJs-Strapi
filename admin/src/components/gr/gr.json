@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_gr_grs",
+  "info": {
+    "displayName": "gr",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.sections"
+    }
+  }
+}

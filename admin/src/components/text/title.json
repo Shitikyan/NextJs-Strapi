@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_text_titles",
+  "info": {
+    "displayName": "title",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

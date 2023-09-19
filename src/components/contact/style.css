@@ -1,0 +1,9 @@
+.multiple-columns {
+  column-count: 2;
+}
+
+@media (max-width: 769px) {
+  .multiple-columns {
+    column-count: 1;
+  }
+}

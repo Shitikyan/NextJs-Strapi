@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_en_home_grs",
+  "info": {
+    "displayName": "home_gr",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media.media"
+    }
+  }
+}
